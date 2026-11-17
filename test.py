@@ -1,7 +1,5 @@
-product = {'uzum' : 5000, 'anor' : 4000, 'olma' : 8000}
-selles = {'uzum' : 4, 'anor' : 6, 'olma' : 3}
+from collections import Counter
+ctr = Counter([1, 2, 2, 3, 3, 3])
 
-for name, product_price in product.items():
-    for product_qty in selles.values():
-        res = product_price * product_qty
-    print(res)
+# Accessing count of an element
+print(ctr)
